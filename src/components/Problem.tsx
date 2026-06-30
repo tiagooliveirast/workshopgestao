@@ -1,3 +1,4 @@
+import { LINK_CHECKOUT, PRECO } from '../config'
 import ScrollReveal from './ScrollReveal'
 
 const problemas = [
@@ -35,6 +36,17 @@ export default function Problem() {
             </ScrollReveal>
           ))}
         </ul>
+
+        <div className="text-center mt-10">
+          <ScrollReveal>
+            <a
+              href={LINK_CHECKOUT}
+              className="inline-block bg-gold hover:bg-gold-light text-dark font-display font-extrabold text-lg md:text-xl px-10 py-4 rounded-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.4)] active:scale-[0.98]"
+            >
+              QUERO MINHA VAGA — {PRECO}
+            </a>
+          </ScrollReveal>
+        </div>
       </div>
     </section>
   )

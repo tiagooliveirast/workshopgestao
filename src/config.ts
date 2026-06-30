@@ -4,7 +4,7 @@
 
 export const NOME_WORKSHOP = "Imersão Técnico que Manda";
 export const PRECO = "R$ 47";
-export const LINK_CHECKOUT = "https://COLAR-LINK-DO-CHECKOUT-AQUI";
+export const LINK_CHECKOUT = "https://pay.hotmart.com/B106550742F?off=1r5e92z7&bid=1782831561302";
 
 // Datas das aulas ao vivo
 export const DATA_LIVE_1 = "Segunda, 10/08 às 20h";
